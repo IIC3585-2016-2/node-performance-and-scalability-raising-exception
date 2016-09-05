@@ -17,6 +17,7 @@ pm2 start <program> --name=<NAME> -i <instances>
 
 pm2 start app.js --name=API -i 4  # En particular
 pm2 monit                         # Para iniciar el monitoreo
+pm2 stop <name|id|all> 
 
 
 
